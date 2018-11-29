@@ -16,4 +16,5 @@
     BTree、Hash、full-text、R-Tree
 ##### 5.你对Mysql索引的认识？
     索引是一个数据结构，可以帮助mysql高效获取数据。
-
+##### 6.创建索引sql的语句？
+    CREATE [UNIQUE] INDEX indexName ON tableName (columnName*)
