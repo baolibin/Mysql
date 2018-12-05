@@ -20,6 +20,7 @@
     CREATE [UNIQUE] INDEX indexName ON tableName (columnName*)
 ##### 7.mysql的explain有啥用？
     使用EXPLAIN关键字可以模拟优化器执行SQL语句，查看MySQL是如何处理你的SQL语句的，分析你的查询语句或是结构的性能瓶颈。
-
+##### 8.什么是覆盖索引？
+    索引和查询的select字段重叠
 
 
